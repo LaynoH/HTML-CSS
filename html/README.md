@@ -1,16 +1,16 @@
 # HTML assignment
 
-problem1
+problem1.html
 >Simple Table.
 
-problem2
+problem2.html
 >Exam Results.
 
-problem3
+problem3.html
 >Nested Tables.
 
-problem4
+problem4.html
 >Life in Antra.
 
-problem5
+problem5.html
 >** "Life in Antra" Keyboard.
