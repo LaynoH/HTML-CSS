@@ -1,0 +1,88 @@
+.footer{
+  font-family:sans-serif;
+}
+
+.sec1 {
+  background-color: #707A83;
+  color: #ffffff;
+  position: fixed;
+  width: 100%;
+  bottom: 30px;
+  left: 0;
+  z-index: 1;
+}
+
+.sec2{
+  background-color: #000000;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0px;
+  left: 0;
+  z-index: 2;
+}
+
+.info{
+  font-size: 13px;
+  margin-left: 120px;
+}
+.info p{
+  line-height: 30px;
+}
+
+.sec2 p{
+  color: #ffffff;
+  margin-top: -20px;
+  margin-left: 120px;
+}
+
+.service p, .resource p, .location p{
+  margin-left: 5px;
+}
+
+.social{
+  float: right;
+  margin-top: -20px;
+}
+
+.fb button, .twitter button, .linkedin button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: block;
+  padding: 0;
+}
+
+.service-btn button{
+  font-size: 13px;
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: : 10px;
+  display: block;
+}
+
+.resource-btn button{
+  font-size: 13px;
+  background-color: transparent;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  margin-top: 10px;
+  margin-bottom: : 10px;
+  display: block;
+}
+
+menu {
+  list-style-type: none;
+}
+
+li {
+  float: left;
+  margin-right: 120px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}

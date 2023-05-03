@@ -1,0 +1,60 @@
+.header {
+  overflow: hidden;
+  background-color: #225F95;
+  padding: 20px 10px;
+}
+
+menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  top: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header-right-top menu{
+  vertical-align: top;
+}
+
+.header-right-down menu{
+  margin-top: 8px;
+  vertical-align: bottom;
+}
+
+li {
+  float: right;
+  margin-right: 0px;
+}
+
+li a {
+  display: block;
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+
+  background-color: #225F95;
+}
+li a:hover {
+  color: #111111;
+}
+
+menu input[type=text]{
+  padding: 6px;
+}
+
+menu button[type=submit]{
+  float: right;
+}
+
+.user, .notification{
+  margin-top: 8px;
+}
