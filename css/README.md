@@ -14,6 +14,8 @@ p3.html & p3.css
 >The Antra News. Create a HTML page like the image below. 100% accuracy is not required. Use external CSS file for the styles. Use
 floating articles for the news and list for the paging bar.
 
-
 p4.html & p4.css
 >Pretty Website. Instead of making the exact same website, I tried to make one related to myself which are artwork from my art design class.
+
+2.png & 3.jpg-8.jpg
+>Image materials for problem 4.
