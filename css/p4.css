@@ -1,0 +1,40 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer menu{
+  list-style-type: none;
+  background-color: #7A756C;
+  color: #ffffff;
+  width: 100%;
+  height: 50px;
+  /*position: fixed;*/
+  bottom: 0px;
+  left: 0;
+}
+
+.footer menu p{
+  color: #ffffff;
+  margin-top: -20px;
+  margin-left: 120px;
+}
+
+.social{
+  float: right;
+  margin-top: -20px;
+}
+
+.fb button, .twitter button, .linkedin button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  display: block;
+  padding: 0;
+}
+
+.footer li {
+  float: left;
+  margin-right: 120px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}

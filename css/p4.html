@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="p4.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Problem 4. Pretty Website</title>
+  </head>
+  <body>
+    <div class="imgs">
+      <img height=250px style="max-width: 100%;" class="d-block w-100" src="2.png" alt="Second slide">
+    </div>
+    <div class="nav1">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #7A756C;">
+        <a class="navbar-brand" href="#">Elaine's Gallery</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Gallery (As shown on top)
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Weird Simpson</a>
+                <a class="dropdown-item" href="#">Cat Pattern</a>
+                <a class="dropdown-item" href="#">Another Pattern</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="gallery">
+      <div class="card-columns">
+        <div class="card">
+          <img class="card-img-top" src="3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Weird Simpson</h5>
+            <p class="card-text">This is a irochigai version of Lisa Simpson.</p>
+          </div>
+        </div>
+        <div class="card p-3">
+          <blockquote class="blockquote mb-0 card-body">
+            <img class="card-img-top" src="4.jpg" alt="Card image cap">
+            <p>This is work with negative & positive space.</p>
+          </blockquote>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="5.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">E pattern</h5>
+            <p class="card-text">This is pattern work using only letter "E"</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card text-white text-center p-3" style="background-color: #C28A1A">
+          <blockquote class="blockquote">
+            <p>These are artwork I did in my design class.</p>
+            <footer class="blockquote-footer">
+              <small>
+                Elaine Chiang
+              </small>
+            </footer>
+          </blockquote>
+        </div>
+        <div class="card text-center">
+          <div class="card-body">
+            <img class="card-img-top" src="6.jpg" alt="Card image cap">
+            <h5 class="card-title">Letter pattern</h5>
+            <p class="card-text">This is pattern work using only letter "E", "M", "K", "L"</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card p-3 text-right">
+          <blockquote class="blockquote mb-0">
+            <img class="card-img-top" src="7.jpg" alt="Card image cap">
+            <p>Another pattern work.</p>
+          </blockquote>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <img class="card-img-top" src="8.jpg" alt="Card image cap">
+            <h5 class="card-title">Pattern with random shapes.</h5>
+            <p class="card-text">This is pattern with random shapes collected from the scribbles I made.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <menu>
+        <li>
+          <p>&copy 2023 Elaine's Gallery.</p>
+        </li>
+
+        <div class="social">
+          <li>
+            <div class="fb">
+              <button onclick="#">
+                <img width=25px height=25px src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ3nbktBG9b_7YXDbMC4s9np3wgZ-xIi42LQCcl7a6aV2qv3if" alt="">
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="twitter">
+              <button onclick="#">
+                <img width=25px height=25px src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRrxubYm1T5_PTG1xjI9Qp3LuW9ZWD-ucJLAAwfQEbNpevIfgRd" alt="">
+              </button>
+            </div>
+          </li>
+          <li>
+            <div class="linkedin">
+              <button onclick="#">
+                <img width=25px height=25px src="https://t3.gstatic.com/images?q=tbn:ANd9GcT5jNWxF34ZWcyncx0QoVGkzkIvRRXQR1LLOM6s2ccTx5eU2wlo" alt="">
+              </button>
+            </div>
+          </li>
+        </div>
+      </menu>
+    </div>
+  </body>
+</html>
